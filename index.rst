@@ -3,13 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-知道创宇研发技能表 V |version|
+知道创宇研发技能表 |version|
 ==============================
 
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
    intro/index
    comm/index
