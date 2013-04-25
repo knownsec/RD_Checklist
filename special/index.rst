@@ -289,19 +289,19 @@ WebApp分层
 
 * 第三方内容
 
-  * 如：cnzz, google ad, mashup等
+  * 如：CNZZ, Google Ad, Mashup等
 * 前端框架
 
   * 插件体系
-  * 如：jquery, bootstrap等
+  * 如：jQuery, Bootstrap等
 * 应用本身
 
   * 插件体系
-  * 如：discuz!, wordpress, trac等
+  * 如：Discuz!, WordPress, Trac等
 * 开发框架
 
   * 插件体系
-  * 如：thinkphp, django, rails等
+  * 如：ThinkPHP, Django, Rails等
 * 支撑层
 
   * CGI语言
