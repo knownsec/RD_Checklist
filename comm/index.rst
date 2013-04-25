@@ -1,6 +1,10 @@
 通用技能
 ========
 
+..
+  Show Source? 别看了，加入我们吧 ;-)
+  http://blog.knownsec.com/2012/02/knownsec-recruitment/
+
 公司与个人
 ----------
 
