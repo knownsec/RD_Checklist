@@ -86,7 +86,7 @@ HTTP抓包与调试
 Python编码规范
 ^^^^^^^^^^^^^^
 
-<PythonCodingRule.pdf>
+* :download:`PythonCodingRule.pdf </download/PythonCodingRule.pdf>`
 
 Office能力
 ^^^^^^^^^^
@@ -125,8 +125,8 @@ Office能力
 
     * 正则图解
 * http://wiki.ubuntu.org.cn/Python正则表达式操作指南
-* <regex/regularexpressions.pptx>
-* regex/正则表达式引擎浅析.txt <regex/about_regx_engine.txt>
+* :download:`regex/regularexpressions.pptx </download/regex/regularexpressions.pptx>`
+* :download:`regex/正则表达式引擎浅析.txt </download/regex/about_regx_engine.txt>`
 
 研发能力
 ^^^^^^^^
@@ -247,15 +247,13 @@ Python
 Linux
 -----
 
-.. TODO 资源文件
-
 * 书
 
-  * Bash新手指南.pdf <linux/bash_freshman.pdf>
-  * 高级Bash脚本编程.pdf <linux/advanced_bash.pdf>
-* bash快捷操作.txt <linux/bash_shortcut.txt>
-* screen最佳实践.pdf <linux/screen.pdf>
-* crontab格式详解.pdf <linux/crontab.pdf>
+  * :download:`Bash新手指南.pdf </download/linux/bash_freshman.pdf>`
+  * :download:`高级Bash脚本编程.pdf </download/linux/advanced_bash.pdf>`
+* :download:`bash快捷操作.txt </download/linux/bash_shortcut.txt>`
+* :download:`screen最佳实践.pdf </download/linux/screen.pdf>`
+* :download:`crontab格式详解.pdf </download/linux/crontab.pdf>`
 
 前端
 ----
@@ -282,8 +280,6 @@ Linux
 Web安全
 -------
 
-.. TODO 资源文件
-
 WebApp分层
 ^^^^^^^^^^
 
@@ -307,7 +303,7 @@ WebApp分层
   * CGI语言
   * Web容器
   * 操作系统
-* Web应用安全结构.pptx <webapp_sec_structure.pptx>
+* :download:`Web应用安全结构.pptx </download/webapp_sec_structure.pptx>`
 
 安全维度
 ^^^^^^^^
@@ -337,7 +333,7 @@ Web安全标准
       * ClickJacking
   * http://xss-quiz.int21h.jp/
 
-    * 答案：xss/xss_quiz.txt <xss/xss_quiz.txt>
+    * 答案：:download:`xss/xss_quiz.txt </download/xss/xss_quiz.txt>`
 * SQL
 
   * https://github.com/Audi-1/sqli-labs
@@ -366,13 +362,11 @@ Papers
 设计思想
 --------
 
-.. TODO 资源文件
-
 * 人人都是架构师——我还是一贯的想法 ;-)
 * 实战出真知
 * 如何设计
 
-  * 任务架构设计变迁.pptx <arch_design_evolution.pptx>
+  * :download:`任务架构设计变迁.pptx </download/arch_design_evolution.pptx>`
   * 松耦合、紧内聚
   * 单元与单元属性
   * 生产者与消费者
@@ -413,12 +407,10 @@ Papers
 算法
 ----
 
-.. TODO 资源文件
-
 * 分词
 * 贝叶斯
 
-  * algorithm/贝叶斯.txt <algorithm/bayes.txt>
+  * :download:`algorithm/贝叶斯.txt </download/algorithm/bayes.txt>`
 * 神经元
 * 遗传算法
 * ...

