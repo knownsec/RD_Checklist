@@ -3,6 +3,11 @@ RD_Checklist
 
 知道创宇研发技能表
 
+在线阅读：
+
+* Sphinx版本：http://rd.readthedocs.org/
+* FreeMind版本：http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html
+
 准备
 ----
 
