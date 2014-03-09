@@ -1,0 +1,155 @@
+/* Trac specific styling */
+
+@import url("sphinxdoc.css");
+
+/* Structure */
+
+div.footer {
+    background-color: #4b4d4d;
+    text-align: center;
+}
+
+div.bodywrapper {
+    border-right: none;
+}
+
+/* Sidebar */
+
+div.sphinxsidebarwrapper {
+    -moz-box-shadow: 2px 2px 7px 0 grey;
+    -webkit-box-shadow: 2px 2px 7px 0 grey;
+    box-shadow: 2px 2px 7px 0 grey;
+    padding: 0 0 1px .4em;
+}
+
+div.sphinxsidebar h3 a,
+div.sphinxsidebar h4 a {
+    color: #b00;
+}
+
+div.sphinxsidebar h3,
+div.sphinxsidebar h4 {
+    padding: 0;
+    color: black;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+div.sphinxsidebar input {
+    border: 1px solid #d7d7d7;
+}
+
+p.searchtip {
+    font-size: 90%;
+    color: #999;
+}
+
+/* Navigation */
+
+div.related ul li a { color: #b00 }
+div.related ul li a:hover {
+    color: #b00;
+}
+
+/* Content */
+
+body {
+    font: normal 13px Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif;
+    background-color: #4b4d4d;
+    border: none;
+    border-top: 1px solid #aaa;
+}
+h1, h2, h3, h4 {
+    font-family: Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.018em;
+    page-break-after: avoid;
+}
+
+h1 { color: #555 }
+h2 { border-bottom: 1px solid #ddd }
+
+div.body a { text-decoration: none }
+a, a tt { color: #b00 }
+a:visited, a:visited tt { color: #800 }
+
+:link:hover, :visited:hover,
+a:link:hover tt, a:visited:hover tt {
+    background-color: #eee;
+    color: #555;
+}
+
+a.headerlink, a.headerlink:hover {
+    color: #d7d7d7 !important;
+    font-size: .8em;
+    font-weight: normal;
+    vertical-align: text-top;
+    margin: 0;
+    padding: .5em;
+}
+a.headerlink:hover {
+    background: none;
+}
+
+div.body h1 a, div.body h2 a, div.body h3 a,
+div.body h4 a, div.body h5 a, div.body h6 a {
+    color: #d7d7d7 !important;
+}
+
+dl.class {
+    -moz-box-shadow: 1px 1px 6px 0 #888;
+    -webkit-box-shadow: 1px 1px 6px 0 #888;
+    box-shadow:  1px 1px 6px 0 #888;
+    padding: .5em;
+}
+dl.function {
+    margin-bottom: 24px;
+}
+
+dl.class > dt, dl.function > dt {
+    border-bottom: 1px solid #ddd;
+}
+
+th.field-name {
+    white-space: nowrap;
+    font-size: 90%;
+    color: #555;
+}
+
+td.field-body > ul {
+    list-style-type: square;
+}
+
+td.field-body > ul > li > strong {
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Admonitions */
+
+div.admonition p.admonition-title, div.warning p.admonition-title {
+    background: none;
+    color: #555;
+    border: none;
+}
+
+div.admonition {
+    background: none;
+    border: none;
+    border-left: 2px solid #acc;
+}
+
+div.warning {
+    background: none;
+    border: none;
+    border-left: 3px solid #c33;
+}
+
+/* Search */
+
+dl:target, dt:target, .highlighted { background-color: #ffa }
+
