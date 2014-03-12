@@ -19,7 +19,7 @@ RD_Checklist
 ------------
 
 * cd RD_Checklist
-* make html
+* make singlehtml
 * cd _build/html
 * python -m SimpleHTTPServer
 * 浏览器查看
