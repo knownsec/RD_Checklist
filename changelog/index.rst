@@ -5,6 +5,11 @@
   Show Source? 别看了，加入我们吧 ;-)
   http://blog.knownsec.com/2012/02/knownsec-recruitment/
 
+3.0.0
+-----
+
+* 改进 更新《说明》章节，并替换离线包
+
 2.2
 ---
 
