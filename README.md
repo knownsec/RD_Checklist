@@ -5,7 +5,7 @@ RD_Checklist
 
 在线阅读：
 
-* Sphinx版本：http://rd.readthedocs.org/
+* Sphinx版本：http://rd.readthedocs.io/
 * FreeMind版本：http://blog.knownsec.com/Knownsec_RD_Checklist/
 
 准备
