@@ -995,21 +995,6 @@ DevOps
 
     - 美
 
-优质资源
---------
-
-* 知乎周刊：http://zhuanlan.zhihu.com/Weekly
-* 码农周刊：http://weekly.manong.io/
-* Pycoder's Weekly：http://pycoders.com/archive/
-* Hacker News：https://news.ycombinator.com/
-* Startup News：http://news.dbanotes.net/
-* 极客头条：http://geek.csdn.net/
-* InfoQ：http://www.infoq.com/cn
-* Stack Overflow：http://stackoverflow.com/
-* GitHub：https://github.com/
-* FreeBuf：http://www.freebuf.com/
-* WooYun：http://drops.wooyun.org/
-
 牛人 1, 2, 3
 ------------
 

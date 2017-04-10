@@ -11,6 +11,7 @@
    intro/index
    comm/index
    special/index
+   resource/index
    contribute/index
    changelog/index
 
