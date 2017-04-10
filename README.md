@@ -6,7 +6,7 @@ RD_Checklist
 在线阅读：
 
 * Sphinx版本：http://rd.readthedocs.org/
-* FreeMind版本：http://blog.knownsec.com/Knownsec_RD_Checklist/v2.2.html
+* FreeMind版本：http://blog.knownsec.com/Knownsec_RD_Checklist/
 
 准备
 ----
@@ -15,16 +15,16 @@ RD_Checklist
 * 安装：pip install Sphinx
 * git clone https://github.com/knownsec/RD_Checklist.git
 
-发布HTML格式
-------------
+发布 HTML 格式
+--------------
 
 * cd RD_Checklist
 * make singlehtml
-* cd _build/html
+* cd `_build/singlehtml`
 * python -m SimpleHTTPServer
 * 浏览器查看
 
-发布PDF格式
------------
+发布 PDF 格式
+-------------
 
 * make pdf
