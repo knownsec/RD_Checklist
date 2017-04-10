@@ -29,7 +29,7 @@ RSS 订阅
 
 * 漏洞相关
 
-  + http://sebug.net/rss.xml
+  + http://seebug.org/rss.xml
   + https://www.exploit-db.com/rss.xml
   + https://rss.packetstormsecurity.com
   + http://www.wooyun.org/feeds/public
@@ -55,7 +55,7 @@ RSS 订阅
 
 * PoC 提交与学习
 
-  + Sebug: http://sebug.net
+  + Seebug: http://seebug.org
   + Beebeeto: http://www.beebeeto.com
   + Bugscan: http://www.bugscan.net
   + Tangscan: http://www.tangscan.com

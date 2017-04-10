@@ -1,10 +1,6 @@
 说明
 ====
 
-..
-  Show Source? 别看了，加入我们吧 ;-)
-  http://blog.knownsec.com/2012/02/knownsec-recruitment/
-
 * 关于知道创宇
 
   + 知行合一 | 守正出奇
@@ -16,4 +12,4 @@
   + 不聪明的人，坐等别人手把手，不仅不适合知道创宇，也不适合任何有极客精神的公司
 
 * 附件标志是我们推荐的附加资源，感谢资源提供者
-* :download:`知道创宇研发技能表v3.0离线版打包下载 </download/Knownsec_RD_Checklist_v3.0.7z>`
+* :download:`知道创宇研发技能表 v3.1 离线版打包下载 </download/Knownsec_RD_Checklist_v3.1.7z>`

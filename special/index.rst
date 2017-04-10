@@ -1,10 +1,6 @@
 专业技能
 ========
 
-..
-  Show Source? 别看了，加入我们吧 ;-)
-  http://blog.knownsec.com/2012/02/knownsec-recruitment/
-
 原则
 ----
 
@@ -318,7 +314,7 @@ Web 安全标准
 XSS
 """
 
-* ks-xsslab_open
+* 内部平台：ks-xsslab_open
 
   + 可以上手
 
@@ -350,10 +346,10 @@ i春秋
 
 * http://www.ichunqiu.com/
 
-Sebug + ZoomEye
-"""""""""""""""
+Seebug + ZoomEye
+""""""""""""""""
 
-* http://sebug.net
+* http://seebug.net
 * http://zoomeye.org
 * 你懂得...
 
@@ -491,11 +487,11 @@ HTTP 代理
 
   + Linux 下命令行抓包，结果可以给 Wireshark 分析
 
-Sebug + ZoomEye
-'''''''''''''''
+Seebug + ZoomEye
+''''''''''''''''
 
 * 类似这类平台都是我们需要的
-* Sebug 类似的
+* Seebug 类似的
 
   + https://www.exploit-db.com/
 
@@ -948,6 +944,7 @@ DevOps
 * 我的分享
 
   + 程序员与黑客：http://www.infoq.com/cn/presentations/programmers-and-hackers
+  + 程序员与黑客 2：http://www.infoq.com/cn/presentations/programmers-and-hackers-part02
 
 协作
 ~~~~
@@ -989,7 +986,7 @@ DevOps
     - 大数据，先考虑 run it，然后才能知道规律在哪
     - “run it 优先”能快速打通整体，洞察问题
     - “run it 优先”能摆脱细节（繁枝末节）的束缚
-    - “run it 优先”能快速迭代出伟大的 V1
+    - “run it 优先”能快速迭代出伟大的 v1
 
   + 一个字总结
 
