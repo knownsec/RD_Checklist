@@ -12,6 +12,7 @@
    comm/index
    special/index
    resource/index
+   end/index
    contribute/index
    changelog/index
 
